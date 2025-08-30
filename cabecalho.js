@@ -5,7 +5,7 @@ class CabecalhoSite extends HTMLElement {
        
       <div id="menu-lateral" class="menu-lateral">
           <a href="javascript:void(0)" class="fechar-btn" onclick="fecharMenu()">×</a>
-          <a href="principal.html">Página Inicial</a>
+          <a href="index.html">Página Inicial</a>
           <a href="catalogo.html">Catálogo da Loja</a>
           <a href="contato.html">Nossa História</a>
       </div>
