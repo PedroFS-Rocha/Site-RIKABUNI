@@ -7,7 +7,7 @@ function verProdutos() {
   }
 
   
-  function Adicionar ao Carrinho(nome, preco) {
+  function adicionar_ao_carrinho(nome, preco) {
   let carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
   carrinho.push({ nome, preco });
   localStorage.setItem('carrinho', JSON.stringify(carrinho));
