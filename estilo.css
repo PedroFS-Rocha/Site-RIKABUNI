@@ -194,4 +194,66 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  header,
+  .cabecalho-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10px;
+  }
+
+  .titulo-site {
+    position: static;
+    transform: none;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .hero {
+    padding: 40px 10px;
+  }
+
+  .hero h2 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .hero button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .produtos {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .menu-lateral a {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  .fechar-btn {
+    font-size: 28px;
+    top: 10px;
+    right: 15px;
+  }
+
+  footer {
+    padding: 15px;
+    font-size: 14px;
+  }
+}
  
