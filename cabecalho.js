@@ -9,6 +9,7 @@ class CabecalhoSite extends HTMLElement {
           <a href="catalogo.html">Catálogo da Loja</a>
           <a href="contato.html">Nossa História</a>
       </div>
+<div id="mensagem-carrinho" class="mensagem-oculta">Produto adicionado ao carrinho!</div>
       `;
     }
   }
