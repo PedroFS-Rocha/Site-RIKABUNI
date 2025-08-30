@@ -9,6 +9,11 @@ class CabecalhoSite extends HTMLElement {
           <a href="catalogo.html">Catálogo da Loja</a>
           <a href="contato.html">Atendimento</a>
       </div>
+ <h1 class="titulo-site">RIKABUNI</h1>
+    
+      <div>
+        <a href="carrinho.html">Carrinho</a>
+      </div>
 <div id="mensagem-carrinho" class="mensagem-oculta">Produto adicionado ao carrinho!</div>
       `;
     }
