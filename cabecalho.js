@@ -7,7 +7,7 @@ class CabecalhoSite extends HTMLElement {
           <a href="javascript:void(0)" class="fechar-btn" onclick="fecharMenu()">×</a>
           <a href="index.html">Página Inicial</a>
           <a href="catalogo.html">Catálogo da Loja</a>
-          <a href="contato.html">Nossa História</a>
+          <a href="contato.html">Atendimento RIKABUNI</a>
       </div>
 <div id="mensagem-carrinho" class="mensagem-oculta">Produto adicionado ao carrinho!</div>
       `;
